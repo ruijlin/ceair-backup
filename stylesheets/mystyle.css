@@ -1,0 +1,67 @@
+body
+{
+
+	background-color: 	#A9A9A9; 
+
+}
+
+h1
+{
+	font-family: sans-serif;
+	color: #008000;
+	margin-left: 15px;
+	text-shadow: 2px 2px; 	
+
+}
+
+h2
+{
+	font-family: sans-serif;
+	
+}
+
+input[type=text] {
+border: 2px solid red;
+  border-radius: 4px;
+}
+
+input[type=password] {
+border: 2px solid red;
+  border-radius: 4px;
+}
+
+input[type=button], input[type=submit], input[type=reset] {
+  background-color:#006400;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+.footer {
+   position: fixed;
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   
+   text-align: center;
+   font-family: sans-serif;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+th, td {
+	font-family: sans-serif;
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even) {background-color: #f2f2f2;}
